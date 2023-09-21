@@ -2,6 +2,11 @@ body {
     margin: 0;
 }
 
+#center-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 nav {
     display: flex;
     background-color: #B6C2C7;
@@ -27,8 +32,29 @@ section {
     display: flex;
     flex-direction: row;
     align-items: center;
+    gap: 100px;
 }
 
 #bass {
     width: 500px;
+}
+
+p {
+    padding-bottom: 50px;
+}
+
+knop {
+    align-items: center;
+    border: solid 2px #1D3B48;
+    padding: 12px;
+    padding-left: 225px;
+    padding-right: 225px;
+    background-color: #1D3B48;
+    border-radius: 10px;
+}
+
+knop a {
+    align-items: center;
+    text-decoration: none;
+    color: #FFFFFF;
 }
