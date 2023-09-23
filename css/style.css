@@ -2,9 +2,36 @@ body {
     margin: 0;
 }
 
-#center-container {
-    max-width: 1200px;
-    margin: 0 auto;
+h1 {
+    margin: 50px;
+}
+
+h4 {
+    text-align: center;
+    font-size: 30px;
+    padding: 30px
+}
+
+h5 {
+    font-size: 18px;
+}
+
+p {
+    padding-bottom: 50px;
+}
+
+button {
+    align-items: center;
+    border: solid 2px #1D3B48;
+    padding: 12px 225px 12px 225px;
+    background-color: #1D3B48;
+    border-radius: 10px;
+}
+
+button a {
+    align-items: center;
+    text-decoration: none;
+    color: #FFFFFF;
 }
 
 nav {
@@ -14,24 +41,47 @@ nav {
     border-bottom: 2px solid #356F89;
 }
 
-#icon-image {
-    width: 100px;
-}
-
 nav a {
     margin: 20px;
     color: #425259;
     text-decoration: none;
 }
 
-h1 {
-    margin: 50px;
+.center-container {
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-section {
+#icon-image {
+    width: 100px;
+}
+
+#titel {
+    display: flex;
+}
+
+#plus-en-minpunten {
+    display: flex;
+    gap: 0;
+    flex-direction: column;
+    background-color: #B6C2C7;
+    margin-top: 20px;
+    padding: 10px 20px 10px 20px;
+}
+
+#plus-en-minpunten p {
+    padding-bottom: 0;
+}
+
+#product {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+#list {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: top;
     gap: 100px;
 }
 
@@ -39,22 +89,37 @@ section {
     width: 500px;
 }
 
-p {
-    padding-bottom: 50px;
+#gerelateerd {
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
-knop {
-    align-items: center;
-    border: solid 2px #1D3B48;
-    padding: 12px;
-    padding-left: 225px;
-    padding-right: 225px;
-    background-color: #1D3B48;
-    border-radius: 10px;
+.product-list {
+    flex-direction: column;
+    text-align: center;
 }
 
-knop a {
-    align-items: center;
+.product-list p {
+    text-align: left;
+}
+
+.product-list img {
+    height: 200px;
+}
+
+.line {
+    background-color: #356F89;
+    height: 2px;
+}
+
+footer {
+    padding: 50px;
+    background-color: #182D36;
+    text-align: center;
+}
+
+footer a {
+    padding: 10px;
     text-decoration: none;
-    color: #FFFFFF;
+    color: white;
 }
